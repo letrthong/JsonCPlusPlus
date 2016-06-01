@@ -1,4 +1,4 @@
 
-g++  -Wall Test.cpp -o test -I ./   -L ./lib -ljson-c
+g++  -Wall Test.cpp -o test -I ./   -L ./lib/x86/ -ljson-c
 ./test
 
